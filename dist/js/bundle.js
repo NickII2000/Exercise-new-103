@@ -99,17 +99,17 @@ __webpack_require__.r(__webpack_exports__);
 // console.log(`${data.one} and ${data.two}`);
 // data.sayHi();
 
-// import { one, two } from './main';
-// import sayHi from './main';
-
-// console.log(`${one} and ${two}`);
-// sayHi();
-
 
 
 
 console.log(`${_main__WEBPACK_IMPORTED_MODULE_0__.one} and ${_main__WEBPACK_IMPORTED_MODULE_0__.two}`);
 (0,_main__WEBPACK_IMPORTED_MODULE_0__["default"])();
+
+// import { one, two } from './main';
+// import { default as sayHi } from './main';
+
+// console.log(`${one} and ${two}`);
+// sayHi();
 
 })();
 
