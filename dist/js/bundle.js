@@ -99,6 +99,12 @@ __webpack_require__.r(__webpack_exports__);
 // console.log(`${data.one} and ${data.two}`);
 // data.sayHi();
 
+// import { one, two } from './main';
+// import sayHi from './main';
+
+// console.log(`${one} and ${two}`);
+// sayHi();
+
 
 
 
