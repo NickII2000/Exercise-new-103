@@ -10,8 +10,8 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ sayHi),
 /* harmony export */   "one": () => (/* binding */ one),
-/* harmony export */   "sayHi": () => (/* binding */ sayHi),
 /* harmony export */   "two": () => (/* binding */ two)
 /* harmony export */ });
 let one = 1;
@@ -95,9 +95,16 @@ __webpack_require__.r(__webpack_exports__);
 // import { one as first } from './main';
 // console.log(first);
 
+// import * as data from './main';
+// console.log(`${data.one} and ${data.two}`);
+// data.sayHi();
+
+
+
 
 console.log(`${_main__WEBPACK_IMPORTED_MODULE_0__.one} and ${_main__WEBPACK_IMPORTED_MODULE_0__.two}`);
-_main__WEBPACK_IMPORTED_MODULE_0__.sayHi();
+(0,_main__WEBPACK_IMPORTED_MODULE_0__["default"])();
+
 })();
 
 /******/ })()
