@@ -88,7 +88,7 @@ var __webpack_exports__ = {};
   !*** ./src/js/script.js ***!
   \**************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main */ "./src/js/main.js");
+/* harmony import */ var _main_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.js */ "./src/js/main.js");
 // import { one, two } from './main';
 // console.log(`${one} and ${two}`);
 
@@ -102,8 +102,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-console.log(`${_main__WEBPACK_IMPORTED_MODULE_0__.one} and ${_main__WEBPACK_IMPORTED_MODULE_0__.two}`);
-(0,_main__WEBPACK_IMPORTED_MODULE_0__["default"])();
+console.log(`${_main_js__WEBPACK_IMPORTED_MODULE_0__.one} and ${_main_js__WEBPACK_IMPORTED_MODULE_0__.two}`);
+(0,_main_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
 
 // import { one, two } from './main';
 // import { default as sayHi } from './main';
