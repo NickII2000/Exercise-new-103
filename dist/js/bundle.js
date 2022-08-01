@@ -97,6 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 console.log(`${_main__WEBPACK_IMPORTED_MODULE_0__.one} and ${_main__WEBPACK_IMPORTED_MODULE_0__.two}`);
+_main__WEBPACK_IMPORTED_MODULE_0__.sayHi();
 })();
 
 /******/ })()
