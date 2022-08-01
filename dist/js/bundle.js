@@ -92,9 +92,11 @@ __webpack_require__.r(__webpack_exports__);
 // import { one, two } from './main';
 // console.log(`${one} and ${two}`);
 
+// import { one as first } from './main';
+// console.log(first);
 
 
-console.log(_main__WEBPACK_IMPORTED_MODULE_0__.one);
+console.log(`${_main__WEBPACK_IMPORTED_MODULE_0__.one} and ${_main__WEBPACK_IMPORTED_MODULE_0__.two}`);
 })();
 
 /******/ })()
